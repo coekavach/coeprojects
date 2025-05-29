@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center of Excellence Kavach - Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 20px;
+        }
+        .header h1 {
+            color: #0066cc;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .header p {
+            font-size: 1.2em;
+            color: #666;
+            font-style: italic;
+        }
+        .project-section {
+            margin-bottom: 40px;
+            padding: 25px;
+            border-left: 5px solid #0066cc;
+            background-color: #f8f9fa;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .project-title {
+            color: #0066cc;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .project-description {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        .key-features {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .key-features h3 {
+            color: #0066cc;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+        .feature-list {
+            margin: 15px 0;
+        }
+        .feature-item {
+            margin: 10px 0;
+            padding: 8px 0;
+            border-bottom: 1px dotted #ddd;
+        }
+        .feature-item:last-child {
+            border-bottom: none;
+        }
+        .highlight {
+            background-color: #e6f3ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            border-left: 4px solid #0066cc;
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            background-color: #28a745;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .development-info {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .technical-specs {
+            background-color: #f1f3f4;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 2px solid #e9ecef;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Center of Excellence Kavach</h1>
+        <p>Developmental Works</p>
+    </div>
+
+    <div class="project-section">
+        <h2 class="project-title">1. Moving Block on Kavach Platform</h2>
+        <div class="project-description">
+            The Moving Block system represents a revolutionary advancement in railway signaling technology, developed as part of the Kavach platform to enhance operational efficiency and safety in Indian Railways.
+        </div>
+        
+        <div class="key-features">
+            <h3>Key Development Features</h3>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <strong>Dynamic Block Management:</strong> Implements real-time train position tracking to create dynamic safety blocks that move with the train, eliminating fixed block limitations.
+                </div>
+                <div class="feature-item">
+                    <strong>Enhanced Capacity:</strong> Allows multiple trains to operate safely on the same track section with reduced headway, significantly increasing line capacity.
+                </div>
+                <div class="feature-item">
+                    <strong>Radio-Based Communication:</strong> Utilizes advanced radio communication protocols for continuous data exchange between trains and control centers.
+                </div>
+                <div class="feature-item">
+                    <strong>GPS Integration:</strong> Incorporates precise GPS positioning for accurate train location determination and movement authorization.
+                </div>
+                <div class="feature-item">
+                    <strong>Interoperability:</strong> Designed to work seamlessly with existing Kavach infrastructure and future railway modernization projects.
+                </div>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <strong>Innovation Highlight:</strong> The Moving Block system eliminates the need for traditional fixed block sections, allowing trains to follow each other more closely while maintaining absolute safety through continuous monitoring and dynamic safety zone adjustment.
+        </div>
+
+        <div class="technical-specs">
+            <h3>Technical Specifications</h3>
+            <p><strong>Operating Frequency:</strong> 2.4 GHz ISM Band</p>
+            <p><strong>Communication Range:</strong> Up to 10 km line-of-sight</p>
+            <p><strong>Position Accuracy:</strong> ±2 meters with DGPS correction</p>
+            <p><strong>Update Rate:</strong> Real-time updates every 1-2 seconds</p>
+        </div>
+
+        <span class="status-badge">Under Development</span>
+    </div>
+
+    <div class="project-section">
+        <h2 class="project-title">2. Kavach Braking Algorithm</h2>
+        <div class="project-description">
+            The Kavach Braking Algorithm is a sophisticated computational system designed to provide automated emergency braking and speed control, ensuring collision avoidance and adherence to speed restrictions across the railway network.
+        </div>
+
+        <div class="key-features">
+            <h3>Algorithm Components</h3>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <strong>Predictive Braking Calculation:</strong> Calculates optimal braking distances based on train speed, load, track conditions, and gradient profiles.
+                </div>
+                <div class="feature-item">
+                    <strong>Real-time Speed Monitoring:</strong> Continuously monitors train speed and compares it with permitted speed limits for the track section.
+                </div>
+                <div class="feature-item">
+                    <strong>Emergency Brake Intervention:</strong> Automatically applies emergency brakes when collision risk is detected or speed limits are exceeded.
+                </div>
+                <div class="feature-item">
+                    <strong>Signal Integration:</strong> Responds to track-side signals and automatically adjusts train speed according to signal aspects.
+                </div>
+                <div class="feature-item">
+                    <strong>Weather Compensation:</strong> Adjusts braking calculations based on weather conditions and rail adhesion factors.
+                </div>
+            </div>
+        </div>
+
+        <div class="development-info">
+            <strong>Recent Achievement:</strong> Successful trials conducted at 160 kmph with the engine stopping 30 meters before a red signal, demonstrating the algorithm's precision and reliability.
+        </div>
+
+        <div class="key-features">
+            <h3>Advanced Features</h3>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <strong>Machine Learning Integration:</strong> Incorporates ML algorithms to improve braking efficiency based on historical performance data.
+                </div>
+                <div class="feature-item">
+                    <strong>Multi-parameter Analysis:</strong> Considers train composition, brake efficiency, track gradient, and environmental factors for precise calculations.
+                </div>
+                <div class="feature-item">
+                    <strong>Fail-safe Design:</strong> Implements multiple redundancy levels to ensure system reliability even during component failures.
+                </div>
+                <div class="feature-item">
+                    <strong>Driver Interface:</strong> Provides clear visual and audio alerts to train operators with recommended actions.
+                </div>
+            </div>
+        </div>
+
+        <div class="technical-specs">
+            <h3>Performance Metrics</h3>
+            <p><strong>Braking Distance Accuracy:</strong> Within ±5% of calculated values</p>
+            <p><strong>Response Time:</strong> Less than 0.5 seconds for emergency interventions</p>
+            <p><strong>Maximum Operating Speed:</strong> Up to 200 kmph (design capability)</p>
+            <p><strong>System Availability:</strong> 99.9% uptime requirement</p>
+        </div>
+
+        <span class="status-badge">Field Testing Phase</span>
+    </div>
+
+    <div class="project-section">
+        <h2 class="project-title">3. Center of Excellence Infrastructure</h2>
+        <div class="project-description">
+            The Center of Excellence Kavach, established with significant investment and collaboration with premier institutions, focuses on advancing railway safety technology and developing indigenous solutions.
+        </div>
+
+        <div class="key-features">
+            <h3>Research & Development Focus Areas</h3>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <strong>5G Technology Integration:</strong> Research on implementing 5G networks for ultra-reliable low-latency communication in railway systems.
+                </div>
+                <div class="feature-item">
+                    <strong>Smart Train Systems:</strong> Development of intelligent train management systems with IoT integration.
+                </div>
+                <div class="feature-item">
+                    <strong>Skill Development Programs:</strong> Training programs for railway personnel on advanced safety technologies.
+                </div>
+                <div class="feature-item">
+                    <strong>Collaboration with IIT Madras:</strong> Joint research initiatives for innovation in railway safety mechanisms.
+                </div>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <strong>Investment:</strong> ₹265 crore budget allocated for establishing world-class research facilities and developing cutting-edge railway safety technology.
+        </div>
+
+        <span class="status-badge">Approved & Under Construction</span>
+    </div>
+
+    <div class="footer">
+        <p><strong>Note:</strong> This document presents the developmental work undertaken by the Center of Excellence Kavach based on publicly available information. The projects represent India's commitment to indigenous railway safety technology development.</p>
+        <p><em>Last Updated: May 2025</em></p>
+    </div>
+</body>
+</html>
